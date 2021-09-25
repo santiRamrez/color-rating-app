@@ -1,0 +1,54 @@
+.color-card {
+  width: 100%;
+  height: 100px;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid transparent;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.color-description {
+  height: 100%;
+  width: 30%;
+  line-height: 24px;
+  padding-top: 14px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 0;
+  padding: 0 5px;
+  max-height: 32px;
+}
+
+.edit-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  max-height: 32px;
+}
+
+.color-description h2 {
+  width: 70px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.color-description p {
+  font-size: 12px;
+}
+
+.color-sqr {
+  width: 70%;
+  height: 100%;
+}

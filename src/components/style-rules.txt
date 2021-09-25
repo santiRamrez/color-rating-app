@@ -1,0 +1,1 @@
+1. Block components should have 16px padding left-right
